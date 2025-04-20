@@ -1,11 +1,6 @@
 <!-- <h1>{{ title }}</h1> -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">{{ title }}</a>
-    </div>
-  </nav>
+<app-navbar></app-navbar>
 
-  <div class="container">
-<!-- <app-trip-listing></app-trip-listing> -->
-    <router-outlet></router-outlet>
-  </div>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
